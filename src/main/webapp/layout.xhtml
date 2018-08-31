@@ -6,9 +6,11 @@
     <ui:composition template="/template.xhtml">
         <ui:define name="content">
             
+            <!--<h6>layout.xhtml antes do menu</h6>-->
             <ui:include src="/menu.xhtml" />
+            <!--<h6>layout.xhtml entre menu e readable</h6>-->
             <ui:insert name="readable" />
-            
+            <!--<h6>layout.xhtml depois do readable</h6>-->
         </ui:define>
     </ui:composition>
 </html>
