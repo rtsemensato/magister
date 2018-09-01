@@ -5,8 +5,8 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <ui:composition template="/layout.xhtml">
         <ui:define name="readable">
-            <h1>Index.xhtml</h1>
             <h3>Bem vindo ao Magister!</h3>
+            <h:outputText value="Você buscou por: #{searchBean.search}" />
         </ui:define>
     </ui:composition>
 </html>
